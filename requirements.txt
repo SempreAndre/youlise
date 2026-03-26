@@ -1,0 +1,5 @@
+# Requirements for YOUlise
+streamlit
+google-generativeai
+google-api-python-client
+python-dotenv

@@ -1,0 +1,13 @@
+# Ambientes Virtuais e Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Arquivos gerados pela aplicação
+coments_*.txt
+
+# Arquivos do OS
+.DS_Store
+Thumbs.db
