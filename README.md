@@ -1,8 +1,8 @@
-# 💖 YOUlise - Analisador de Comentários do YouTube
+# YOUlise - Analisador de Comentários do YouTube
 
 O **YOUlise** é uma aplicação que extrai e analisa comentários de vídeos e Shorts do YouTube utilizando inteligência artificial. Com ele, você pode entender rapidamente o sentimento do público (elogios, reclamações, "vibe" geral) e interagir em um chat para fazer perguntas específicas sobre o que os usuários estão falando no vídeo.
 
-## 🚀 O que o projeto faz?
+## O que o projeto faz?
 
 O projeto possui duas formas de utilização:
 
@@ -11,14 +11,14 @@ O projeto possui duas formas de utilização:
    - `coletor.py`: Um script que baixa os comentários de um vídeo e salva em um arquivo texto (`.txt`).
    - `analisador.py`: Lê os arquivos de texto salvos pelo coletor e gera um relatório estruturado no próprio terminal.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python** como linguagem principal.
 - **[Streamlit](https://streamlit.io/)** para a criação da interface visual web interativa.
 - **YouTube Data API v3** (`google-api-python-client`) para extração dos comentários dos vídeos.
 - **Google Generative AI - Gemini 2.5 Flash** (`google-generativeai`) para analisar o sentimento e responder perguntas sobre os comentários de forma inteligente.
 
-## ⚙️ Como executar
+## Como executar
 
 ### 1. Pré-requisitos
 Certifique-se de ter o Python instalado em seu computador. Em seguida, instale as bibliotecas necessárias via arquivo de requisitos. Abra o terminal na pasta do projeto e execute:
@@ -44,7 +44,7 @@ Se preferir usar as ferramentas separadas sem a interface web:
 - Em seguida, rode `python analisador.py` e digite o nome do arquivo gerado para obter o relatório no terminal.
 - O arquivo `check_api.py` serve apenas para verificar quais modelos do Gemini estão disponíveis para sua chave.
 
-## 📋 Estrutura dos Arquivos
+## Estrutura dos Arquivos
 
 - `app.py`: Aplicação web principal (Streamlit).
 - `coletor.py`: Script para baixar comentários via YouTube API.
